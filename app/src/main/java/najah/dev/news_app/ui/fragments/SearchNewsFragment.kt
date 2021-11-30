@@ -17,7 +17,7 @@ import najah.dev.news_app.ui.NewsViewModel
 import najah.dev.news_app.utils.Constants
 import najah.dev.news_app.utils.Resource
 
-class SearchNewsFragment : Fragment(R.layout.fragment_search_news){
+class SearchNewsFragment : Fragment(R.layout.fragment_search_news) {
 
     lateinit var viewModel: NewsViewModel
     lateinit var newsAdapter: NewsAdapter
@@ -47,9 +47,9 @@ class SearchNewsFragment : Fragment(R.layout.fragment_search_news){
         etSearch.addTextChangedListener { editable ->
             job?.cancel()
             job = MainScope().launch {
-                delay(Constants.SEARCH_NEWS_TIME_DELAY )
+                delay(Constants.SEARCH_NEWS_TIME_DELAY)
                 editable?.let {
-                    if(editable.toString().isNotEmpty()){
+                    if (editable.toString().isNotEmpty()) {
                         viewModel.searchNews(editable.toString())
                     }
                 }
@@ -57,7 +57,7 @@ class SearchNewsFragment : Fragment(R.layout.fragment_search_news){
         }
 
         viewModel.searchNews.observe(viewLifecycleOwner, Observer { response ->
-            when(response) {
+            when (response) {
                 is Resource.Success -> {
                     hideProgressBar()
                     response.data?.let { newsResponse ->
@@ -77,7 +77,7 @@ class SearchNewsFragment : Fragment(R.layout.fragment_search_news){
         })
     }
 
-    private fun setupRecyclerView(){
+    private fun setupRecyclerView() {
         newsAdapter = NewsAdapter()
         rvSearchNews.apply {
             adapter = newsAdapter
