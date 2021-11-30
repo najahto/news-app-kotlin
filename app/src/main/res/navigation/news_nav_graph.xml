@@ -20,7 +20,11 @@
         android:id="@+id/articleFragment"
         android:name="najah.dev.news_app.ui.fragments.ArticleFragment"
         android:label="ArticleFragment"
-        />
+        >
+        <argument
+            android:name="article"
+            app:argType="najah.dev.news_app.models.Article" />
+    </fragment>
     <fragment
         android:id="@+id/searchNewsFragment"
         android:name="najah.dev.news_app.ui.fragments.SearchNewsFragment"
