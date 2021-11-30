@@ -1,4 +1,4 @@
-package najah.dev.news_app
+package najah.dev.news_app.models
 
 data class NewsResponse(
     val articles: List<Article>,

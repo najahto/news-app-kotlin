@@ -1,6 +1,6 @@
 package najah.dev.news_app.api
 
-import najah.dev.news_app.NewsResponse
+import najah.dev.news_app.models.NewsResponse
 import najah.dev.news_app.utils.Constants.Companion.API_KEY
 import retrofit2.Response
 import retrofit2.http.GET
