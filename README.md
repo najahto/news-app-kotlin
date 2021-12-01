@@ -23,14 +23,18 @@ The main aim of this sample app is show how to use the new Architecture Guidelin
 <img align="center" src="./screenshots/delete_saved_articles.gif" />
 <br/>
 
-<img align="center"  height="450px" src="./screenshots/article_detils.jpg" />
+<img align="center"  height="750px" src="./screenshots/article_detils.jpg" />
 <br/>
 
-<img align="center"  height="450px" src="./screenshots/search_news.jpg" />
+<img align="center"  height="750px" src="./screenshots/saved_news.jpg" />
 <br/>
 
-<img align="center"  height="450px" src="./screenshots/saved_news.jpg" />
+<img align="center"  height="750px" src="./screenshots/search_news.jpg" />
 <br/>
 
-<img align="center"  height="450px" src="./screenshots/breaking_news_dark.jpg" />
+<img align="center"  height="750px" src="./screenshots/breaking_news_dark.jpg" />
 <br/>
+
+<img align="center"  height="750px" src="./screenshots/saved_dark.jpg" />
+<br/>
+
