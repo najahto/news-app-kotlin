@@ -8,7 +8,6 @@
 - [Retrofit](https://square.github.io/retrofit/)
 - [Room](https://developer.android.com/training/data-storage/room) 
 - [Glide](https://github.com/bumptech/glide)
-- [LiveData](https://developer.android.com/topic/libraries/architecture/livedata)
 
 ## About App :bulb:
 This app uses [NewsAPI](newsapi.org) to get news. It uses Retrofit 2 to fetch news and search for news from the API. 
