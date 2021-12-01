@@ -4,6 +4,7 @@
 - [Kotlin](https://kotlinlang.org/)
 - [MVVM & Repository pattern](https://developer.android.com/jetpack/docs/guide#overview)
 - [LiveData](https://developer.android.com/topic/libraries/architecture/livedata)
+- [Navigation](https://developer.android.com/guide/navigation)
 - [Coroutines](https://kotlinlang.org/docs/coroutines-guide.html) 
 - [Retrofit](https://square.github.io/retrofit/)
 - [Room](https://developer.android.com/training/data-storage/room) 
