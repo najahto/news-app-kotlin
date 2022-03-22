@@ -11,7 +11,7 @@
 - [Glide](https://github.com/bumptech/glide)
 
 ## About App :bulb:
-This app uses [NewsAPI](newsapi.org) to get news. It uses Retrofit 2 to fetch and search for news from the API. 
+This app uses [NewsAPI](https://newsapi.org/) to get news. It uses Retrofit 2 to fetch and search for news from the API. 
 It uses Room Library to save news as favorites and loads and removes the data from DB, 
 The main aim of this sample app is show how to use the new Architecture Guidelines with Kotlin.
 
